@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="login.js"></script>
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,8 +12,8 @@
         <link rel="shortcut icon" href="img/favicon.ico">        
         <title>Login</title>
     </head>
-    <body>
-        <div id="header">
+    <body style="background-color: #f1f1f1">
+        <div id="header" style="background-color: #f1f1f1">
         <a href="Homepage.html"><img id="logoheader" src="img/TweetBook.png"></a>
 <nav class="navbar navbar-expand-lg navbar-light bg-white" style="margin-left: 40%"></nav>
         <p style="color: #ff6060">Login</p>
@@ -28,7 +29,7 @@
                             <div class="form-group row">
                                 <label for="email_address" class="col-md-4 col-form-label text-md-right">E-Mail/Username</label>
                                 <div class="col-md-6">
-                                    <input type="text" id="email_address" class="form-control" name="email-address" required autofocus>
+                                    <input type="text" id="email" class="form-control" name="email-address" required autofocus>
                                 </div>
                             </div>
 
@@ -49,20 +50,46 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                            
+                        </form>
+                        <div type="submit" style="color: white; background-color: #ff6060;cursor: pointer;width: 10%;text-align: center;height: 40px;padding-top: 5px;border-radius: 10px;margin-bottom: 20px: "  onclick="submit()">
                                     Login
-                                </button>
-                                <a href="#" class="btn btn-link">
+                                <div>
+                             <div class="col-md-6 offset-md-4">
+                                
+                                <a href="#" class="btn btn-link" style="margin-left: 700px;margin-bottom: 20px">
                                     Forgot Your Password?
                                 </a>
                             </div>
-                        </form>
                     </div>
                 </div>
             </div>
             </div>
             </div>
+            <div id="b" style=" background-color: salmon;
+  margin: auto;
+  padding: 20px;
+  width: 20%;
+ border-radius: 10px;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.6);"><span class="close" style="margin-right: 40.5%" onclick="close1()">&times;</span>
+                        <div id="a" style="background-color: salmon;
+  margin: auto;
+  padding: 20px;
+  width: 20%;
+     border-radius: 10px; color: white">
+                            Test
+                        </div>
+        </div>
         </div>
     </body>
 </html>

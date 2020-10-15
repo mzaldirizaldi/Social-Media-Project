@@ -5,3 +5,45 @@ a {
 a:hover {
     color: #ff6060;
 }
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ff6060;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255,96,96, 0.8);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ff6060;
+  border-color: #ff6060;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ff6060;
+  border-color: #ff6060;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(255,96,96, 0.8);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #ff6060;
+  border-color: #ff6060;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #ff6060;
+  border-color: #ff6060;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255,96,96, 0.8);
+}

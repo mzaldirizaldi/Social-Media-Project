@@ -7,6 +7,8 @@
     margin-top: 20px;
     background-color: #f1f1f1;
 }
+
+
 #frame1
 {
     height: 150px;
@@ -293,8 +295,8 @@
     margin-right: -20px;
     float: left;
 }
-.modal1 {
-  display: none;
+.modal {
+  display: block;
   position: fixed;
   z-index: 1;
   padding-top: 100px;
@@ -309,13 +311,7 @@
 #imageintotal{
     visibility: 100%;
 }
-.modal-content1 {
-  background-color: salmon;
-  margin: auto;
-  padding: 20px;
-  width: 20%;
- border-radius: 10px;
-}
+
 #result1 img{
     border-radius: 10px;
 }
